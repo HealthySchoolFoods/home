@@ -9,14 +9,3 @@ body{
   color: #ffffff;
   text-align: -webkit-center;
 }
-
-.text-box {
-  text-align: -webkit-center;
-  color: #222222;
-  flex-basis: 31%;
-  background: ##222222;
-  border-radius: 10px;
-  margin-bottom: 5% padding: 20px 12px;
-  box-sizing: border-box;
-  transition: 0.3;
-}
