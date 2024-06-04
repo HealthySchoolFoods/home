@@ -1,28 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fira+Code:wght@300..700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
-  background: #000000;
+body, ul {
+    margin: 0;
+    padding: 0;
 }
 
-.hsf-text{
-  font-family: 'Inter Tight', sans-serif;
-  color: #ffffff;
-  text-align: -webkit-center;
+.topbar {
+    background-color: #f8f8f8; 
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.fade-in { 
-  animation: fadeIn  0.5s; 
+.logo {
+    height: 40px; 
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; 
+    font-weight: bold;
+}
+
+/* Headline styling */
+.headline {
+    text-align: center;
+    font-size: 32px;
+    color: #333; 
+    margin-top: 50px;
+}
+
+/* Example animation */
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
 }
 
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-.headline{
-  transition: color 0.7s;
-}
-
-.headline:hover{
-  color: red;
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
