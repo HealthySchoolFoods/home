@@ -20,16 +20,10 @@ body{
 }
 
 .headline{
-  transition: background-color 0.7s;
+  transition: color 0.7s;
 }
 
 .headline:hover{
-  background-color: red;
+  color: red;
 }
 
-.gradient-text {
-    background: linear-gradient(#ffffff, #000000);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
